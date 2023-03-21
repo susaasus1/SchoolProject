@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="History.exe" version="1.0.0.27" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="Logotip_zolotoy.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="History" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="History.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Параметры манифеста UAC
+             Если вы хотите изменить уровень контроля учетных записей Windows, замените узел 
+             requestedExecutionLevel на один из следующих.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            При указании элемента requestedExecutionLevel будет отключена виртуализация файлов и реестра. 
+            Удалите этот элемент, если виртуализация требуется приложению для обратной
+            совместимости.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="History.exe" size="107667432">
+      <assemblyIdentity name="History" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j4qrv+d1Q4wVz6B0peE63mfDJ6lmRz59pKnGD+l6l0U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="arhiv\1.txt" size="57247">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q/RFwJb+/iA/1HPSp2XWFK/nl0abquRQnmk2O/XA29M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\10.txt" size="9274">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zgfvwLVYn+kkdjq67yYifi70+R2jMb3l0ym3ZO51zcw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\11.txt" size="23425">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yPTILwqXXc6nBJc8zSUclZVM8CGPGG8B0i0bO+Ap5oY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\12.txt" size="19963">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>89yPDBty31LXe07w8HAhVEpl+OPD1OLg1JyZyXFl5nA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\13.txt" size="17522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xT4hj0Y3pJh28BNtUGiXQQOaSjIlFokwjJlCYIM0cZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\14.txt" size="7901">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bT5LEKo/7bxNILzTpto73q1QDpsWzHZEPag8YU+ite8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\15.txt" size="31933">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MJ6xY7xSv8wuRhvl7aW/3Fxml4ww4kgtv+x4aQOKMyQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\16.txt" size="5151">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+YqFG3zmPltVOrMLAOH1IrRVMTPjFMzp3PYNfwwsH3U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\17.txt" size="22776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3V7hnydmKwtUJmecR+jMtT9fTvKrp4HPSZ9oPQLtSpE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\18.txt" size="22954">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/X17UVr1xwBbyWanp5oFFTEiiOSrH6OG0pjVXxRL2S4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\19.txt" size="7791">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d9xquSp+mDB8VBIarYp9W0cEmBQRBDcecNqqNl1Fa8Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\2.txt" size="1730">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e/KNfkIVWd5Z036QdH/y6wAAb8pT6ncNp2TYDN2TLsE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\20.txt" size="12000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f+Vhqcbfs9zm7oSyiTBWvrLiPLoJRgEKolDIbkHSezA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\21.txt" size="23971">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zUGHpUSgV560LOVcGe7sCeK2ebzsvkTjfakB6bWJluw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\22.txt" size="13168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Tn8ueGcpd1kwH1kfsmhuBZSZtsZMrF14YgkJ3LQf2Yg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\23.txt" size="21568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hKXzKLTkk0usjNIgYSoJkBBS6M8PdJAo1OXyzkP9Wsk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\24.txt" size="18379">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7EtellPFCAtuFoE7FlgZqbpE2Ub4KMBis6RgyiHSOFY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\25.txt" size="7136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K68JeQ9WS6SCve+vBrjkVArSgvZ6KjXODMqS18pVTFY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\26.txt" size="13111">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mUiAGNErpyc57tn0iRQG1gNEZWBnwNBxRY/pgaFBeXc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\27.txt" size="4469">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pxzlDU3+E7hTu2dIy87QXDk9/NYD9WBomxcBiqpniqo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\28.txt" size="28755">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uNhWfg6sy+DRmt8inv8AH6KUCWg9usgB1fK3tRXr+2Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\29.txt" size="5317">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qv2MUI++Qwm7es6r4T++UC+Fsnj8oFQ+wZ8t+YdZUcY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\3.txt" size="44891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TgSTamfCUL5lvQH4my4OmZU/s0OZifSw2OIvWF69ibI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\30.txt" size="15159">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vacwanVdiiv2H2G6/zx04+FN7DM5fvKjT8/nRaGxL7g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\31.txt" size="16182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0TtmFaauPe06vpYKgYMQvGXXlp+rMeTISJhX6aMyGRI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\32.txt" size="1539">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FY+DCUhS69kCeIx7yjuaKHBu3dLQXYP7O1aRIfdd6hk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\4.txt" size="6304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RWOQ/tk5w8BHDIaCEFGhf6V2bPznnuxkRuDYbQxHHwA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\5.txt" size="3821">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NuOd+NwYvMqFN1tWWj9jZJ0L7bX+FMC+kkcuux42XD4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\6.txt" size="7917">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>24PElif7J5LduAwHMSV6TGpf0mDLj+q8eG0CvGR8wTQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\7.txt" size="5798">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kPIJssYbdUP1KFfXE6gqC5klSR5NH4jjBws6nzrElXk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\8.txt" size="5975">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QsZY9pluaP1nhalWgRDVA4FBR/GJD4cXmjJe7aPAC+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="arhiv\9.txt" size="48274">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>adWDYABW5G/Tu0PJjJyjxtdcwFmKiHCuW/aelK7NY4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="History.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="info\Novy_textovy_dokument (2).txt" size="1379">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pxXCyrIIKKxt2rjoV+jRgd0Yjfa50uxHLU3Abs/PydI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Logotip_zolotoy.ico" size="179262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zTqhtZ8x8R/ggq9iCepVgGc9Cy6rMxrgqxzjkfF62j8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="test\Otvety.txt" size="855">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ekqRB8OoK5XB1nn4GflgRwBFfVxVeygCd1Si2W56s8c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="test\Pravilnye_otvety.txt" size="225">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d4qamatlG+5acBW62TpI6mrn7hLvWnsD3Ah7PSNlyxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="test\Voprosy.txt" size="1113">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+cDrN8o9D02IbLT3GTeisfcdt8018hVF6Dky7W3nVP8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Список версий Windows, на которых это приложение было протестировано
+           и будет работать. Раскомментируйте соответствующие элементы, чтобы ОС Windows 
+           автоматически выбрала наиболее совместимое окружение. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>

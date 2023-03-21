@@ -1,0 +1,259 @@
+Public Class Form3
+    Dim qorder(10) As Integer
+    Dim anorder(5) As Integer
+    Dim a As Integer
+    Dim r As New Random
+    Dim j As Integer
+    Dim i As Integer
+    Dim check As Boolean
+    Dim sum As Integer
+    Dim num As Integer
+    Dim q(10) As String
+    Dim ans(10, 5) As String
+    Dim ran(10) As String
+    Dim c As Integer = 2
+    Dim fsizeq As Integer
+    Dim fsizeab As Integer
+    Dim fsizen As Integer
+
+
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+       
+        'Рандомный порядок для вопросов:
+        sum = 0
+        num = 1
+        While sum <> 10
+            check = False
+            a = r.Next(1, 11)
+            For j = 1 To 10
+                If qorder(j) = a Then
+                    check = True
+                End If
+            Next
+            If check <> True Then
+                qorder(num) = a
+                sum += 1
+                num += 1
+            End If
+        End While
+
+        'Рандомный порядок для ответов:
+        sum = 0
+        num = 1
+
+        While sum <> 5
+            check = False
+            a = r.Next(1, 6)
+            For j = 1 To 5
+                If anorder(j) = a Then
+                    check = True
+                End If
+            Next
+            If check <> True Then
+                anorder(num) = a
+                sum += 1
+                num += 1
+            End If
+        End While
+
+        sum = 0
+        num = 1
+
+        'Чтение вопросов с файла:
+        Dim s() As String = IO.File.ReadAllLines("Files/Test/quiz.txt", System.Text.Encoding.UTF8)
+
+        For i = 1 To 10
+            q(qorder(i)) = s(qorder(i) - 1)
+        Next
+
+        'Чтение вариантов ответов с файла:
+        Dim s1() As String = IO.File.ReadAllLines("Files/Test/an.txt", System.Text.Encoding.UTF8)
+
+        For i = 1 To 10
+            For j = 1 To 5
+                ans(qorder(i), anorder(j)) = s1(qorder(i) * 5 - j)
+            Next
+        Next
+
+        'Чтение правильных ответов с файла:
+        Dim s2() As String = IO.File.ReadAllLines("Files/Test/ran.txt", System.Text.Encoding.UTF8)
+
+        For i = 1 To 10
+            ran(qorder(i)) = s2(qorder(i) - 1)
+        Next
+
+  
+
+        SepVer2.Visible = False
+        an1.Visible = False
+        an2.Visible = False
+        an3.Visible = False
+        an4.Visible = False
+        an5.Visible = False
+        que.Visible = False
+        qnum.Visible = False
+        Label1.Visible = False
+
+
+    End Sub
+
+    Private Sub Btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
+        btn1.Visible = False
+        SepVer2.Visible = True
+        an1.Visible = True
+        an2.Visible = True
+        an3.Visible = True
+        an4.Visible = True
+        an5.Visible = True
+        que.Visible = True
+        qnum.Visible = True
+
+        c = 1
+        qnum.Text = c
+        que.Text = q(qorder(c))
+        an1.Text = ans(qorder(c), 1)
+        an2.Text = ans(qorder(c), 2)
+        an3.Text = ans(qorder(c), 3)
+        an4.Text = ans(qorder(c), 4)
+        an5.Text = ans(qorder(c), 5)
+        sum = 0
+
+    End Sub
+
+ 
+    Private Sub An1_Click(sender As Object, e As EventArgs) Handles an1.Click
+        If an1.Text = ran(qorder(c)) Then
+            sum += 1
+        End If
+        c += 1
+        If c >= 11 Then
+            'MsgBox(sum)
+            Label1.Text = "Вы завершили тестирование, ваш результат: " & sum & " из 10"
+            Label1.Visible = True
+            SepVer2.Visible = False
+            an1.Visible = False
+            an2.Visible = False
+            an3.Visible = False
+            an4.Visible = False
+            an5.Visible = False
+            que.Visible = False
+            qnum.Visible = False
+        Else
+            qnum.Text = c
+            que.Text = q(qorder(c))
+            an1.Text = ans(qorder(c), 1)
+            an2.Text = ans(qorder(c), 2)
+            an3.Text = ans(qorder(c), 3)
+            an4.Text = ans(qorder(c), 4)
+            an5.Text = ans(qorder(c), 5)
+        End If
+    End Sub
+
+    Private Sub An2_Click(sender As Object, e As EventArgs) Handles an2.Click
+        If an2.Text = ran(qorder(c)) Then
+            sum += 1
+        End If
+        c += 1
+        If c >= 11 Then
+            Label1.Text = "Вы завершили тестирование, ваш результат: " & sum & " из 10"
+            Label1.Visible = True
+            SepVer2.Visible = False
+            an1.Visible = False
+            an2.Visible = False
+            an3.Visible = False
+            an4.Visible = False
+            an5.Visible = False
+            que.Visible = False
+            qnum.Visible = False
+        Else
+            qnum.Text = c
+            que.Text = q(qorder(c))
+            an1.Text = ans(qorder(c), 1)
+            an2.Text = ans(qorder(c), 2)
+            an3.Text = ans(qorder(c), 3)
+            an4.Text = ans(qorder(c), 4)
+            an5.Text = ans(qorder(c), 5)
+        End If
+    End Sub
+
+    Private Sub An3_Click(sender As Object, e As EventArgs) Handles an3.Click
+        If an3.Text = ran(qorder(c)) Then
+            sum += 1
+        End If
+        c += 1
+        If c >= 11 Then
+            Label1.Text = "Вы завершили тестирование, ваш результат: " & sum & " из 10"
+            Label1.Visible = True
+            SepVer2.Visible = False
+            an1.Visible = False
+            an2.Visible = False
+            an3.Visible = False
+            an4.Visible = False
+            an5.Visible = False
+            que.Visible = False
+            qnum.Visible = False
+        Else
+            qnum.Text = c
+            que.Text = q(qorder(c))
+            an1.Text = ans(qorder(c), 1)
+            an2.Text = ans(qorder(c), 2)
+            an3.Text = ans(qorder(c), 3)
+            an4.Text = ans(qorder(c), 4)
+            an5.Text = ans(qorder(c), 5)
+        End If
+    End Sub
+
+    Private Sub An4_Click(sender As Object, e As EventArgs) Handles an4.Click
+        If an4.Text = ran(qorder(c)) Then
+            sum += 1
+        End If
+        c += 1
+        If c >= 11 Then
+            Label1.Text = "Вы завершили тестирование, ваш результат: " & sum & " из 10"
+            Label1.Visible = True
+            SepVer2.Visible = False
+            an1.Visible = False
+            an2.Visible = False
+            an3.Visible = False
+            an4.Visible = False
+            an5.Visible = False
+            que.Visible = False
+            qnum.Visible = False
+        Else
+            qnum.Text = c
+            que.Text = q(qorder(c))
+            an1.Text = ans(qorder(c), 1)
+            an2.Text = ans(qorder(c), 2)
+            an3.Text = ans(qorder(c), 3)
+            an4.Text = ans(qorder(c), 4)
+            an5.Text = ans(qorder(c), 5)
+        End If
+    End Sub
+
+    Private Sub An5_Click(sender As Object, e As EventArgs) Handles an5.Click
+        If an5.Text = ran(qorder(c)) Then
+            sum += 1
+        End If
+        c += 1
+        If c >= 11 Then
+            Label1.Text = "Вы завершили тестирование, ваш результат: " & sum & " из 10"
+            Label1.Visible = True
+            SepVer2.Visible = False
+            an1.Visible = False
+            an2.Visible = False
+            an3.Visible = False
+            an4.Visible = False
+            an5.Visible = False
+            que.Visible = False
+            qnum.Visible = False
+        Else
+            qnum.Text = c
+            que.Text = q(qorder(c))
+            an1.Text = ans(qorder(c), 1)
+            an2.Text = ans(qorder(c), 2)
+            an3.Text = ans(qorder(c), 3)
+            an4.Text = ans(qorder(c), 4)
+            an5.Text = ans(qorder(c), 5)
+        End If
+    End Sub
+End Class
